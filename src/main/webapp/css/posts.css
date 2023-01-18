@@ -1,0 +1,32 @@
+
+#posts-container {
+    width: 80%;
+    margin: 0 auto;
+}
+.post {
+    margin: 20px 0;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+}
+.post-content {
+    margin-bottom: 20px;
+}
+.post-meta {
+    display: flex;
+    align-items: center;
+}
+.post-comments, .post-likes {
+    margin-left: 20px;
+}
+.comment {
+    margin-top: 10px;
+    padding: 10px;
+    background-color: #f2f2f2;
+    border-radius: 5px;
+}
+.like {
+    margin-top: 10px;
+    font-style: italic;
+}
+

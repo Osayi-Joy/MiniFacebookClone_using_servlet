@@ -15,7 +15,6 @@
 <body>
 <input type="hidden" id="register" value ="<%= session.getAttribute("register") %>">
 
-
 	<div class="main">
 
 		<!-- Sign up form -->

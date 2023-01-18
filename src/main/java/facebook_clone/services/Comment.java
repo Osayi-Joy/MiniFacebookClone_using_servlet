@@ -1,2 +1,5 @@
-package facebook_clone.controller.services;public interface Comment {
+package facebook_clone.services;
+
+public interface Comment {
+
 }

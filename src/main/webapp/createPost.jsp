@@ -50,9 +50,9 @@
         <div class="collapse navbar-collapse" id="navbarResponsive">
             <ul class="navbar-nav ms-auto">
                 <li class="nav-item mx-0 mx-lg-1"><a
-                        class="nav-link py-3 px-0 px-lg-3 rounded" href="#viewPost">View Posts</a></li>
+                        class="nav-link py-3 px-0 px-lg-3 rounded" href="viewPost.jsp">View Posts</a></li>
                 <li class="nav-item mx-0 mx-lg-1"><a
-                        class="nav-link py-3 px-0 px-lg-3 rounded" href="#makePost">New Post</a></li>
+                        class="nav-link py-3 px-0 px-lg-3 rounded" href="createPost.jsp">New Post</a></li>
                 <li class="nav-item mx-0 mx-lg-1"><a
                         class="nav-link py-3 px-0 px-lg-3 rounded" href="LogoutServlet">Logout</a></li>
                 <li class="nav-item mx-0 mx-lg-1 bg-danger"><a
@@ -66,27 +66,27 @@
 </nav>
 
 
-<!-- Masthead-->
-<header class="masthead bg-primary text-white text-center">
-    <div class="container d-flex align-items-center flex-column">
-        <!-- Masthead Avatar Image-->
-        <img class="masthead-avatar mb-5" src="assets/img/avataaars.svg"
-             alt="..."/>
-        <!-- Masthead Heading-->
-        <h1 class="masthead-heading text-uppercase mb-0">Welcome To Social-lite</h1>
-        <!-- Icon Divider-->
-        <div class="divider-custom divider-light">
-            <div class="divider-custom-line"></div>
-            <div class="divider-custom-icon">
-                <i class="fas fa-star"></i>
-            </div>
-            <div class="divider-custom-line"></div>
-        </div>
-        <!-- Masthead Subheading-->
-        <p class="masthead-subheading font-weight-light mb-0">Connect with Friends - Make Your Posts - Get Reactions and
-            Comments from Friends</p>
-    </div>
-</header>
+<%--<!-- Masthead-->--%>
+<%--<header class="masthead bg-primary text-white text-center">--%>
+<%--    <div class="container d-flex align-items-center flex-column">--%>
+<%--        <!-- Masthead Avatar Image-->--%>
+<%--        <img class="masthead-avatar mb-5" src="assets/img/avataaars.svg"--%>
+<%--             alt="..."/>--%>
+<%--        <!-- Masthead Heading-->--%>
+<%--        <h1 class="masthead-heading text-uppercase mb-0">Welcome To Social-lite</h1>--%>
+<%--        <!-- Icon Divider-->--%>
+<%--        <div class="divider-custom divider-light">--%>
+<%--            <div class="divider-custom-line"></div>--%>
+<%--            <div class="divider-custom-icon">--%>
+<%--                <i class="fas fa-star"></i>--%>
+<%--            </div>--%>
+<%--            <div class="divider-custom-line"></div>--%>
+<%--        </div>--%>
+<%--        <!-- Masthead Subheading-->--%>
+<%--        <p class="masthead-subheading font-weight-light mb-0">Connect with Friends - Make Your Posts - Get Reactions and--%>
+<%--            Comments from Friends</p>--%>
+<%--    </div>--%>
+<%--</header>--%>
 
 
 <!-- Posts Section-->
@@ -149,68 +149,6 @@
         </div>
     </div>
 </section>
-
-
-
-<section class="page-section" id="viewPost">
-    <div class="container">
-        <!-- Posts Section Heading-->
-        <h2 class="page-section-heading text-center text-uppercase text-secondary mb-0">View Post </h2>
-        <form action="ViewPostServlet" method="get">
-            <input type="submit" value="View Posts">
-        </form>
-        <div>
-            <%
-                List<Posts> posts = (List<Posts>) request.getAttribute("posts");
-                if (posts != null && !posts.isEmpty()) {
-                    for (Posts post : posts) {
-            %>
-            <div class="form-floating mb-3">
-                <div>
-                    <h6>SUBJECT: <%= post.getTextPost() %></h6>
-                </div>
-                <div class="post-meta">
-                    <div class="post-user-id">
-                        <h6>USER_ID: <%= post.getUser_id() %> </h6>
-                    </div>
-                    <div class="post-title">
-                        <h5> <%= post.getPost_title() %> </h5>
-                    </div>
-                    <div class="post-date">
-                        <%= post.getDateOfPost() %>
-                    </div>
-
-
-<%--                    <div class="like-count">Likes: <%= PostDao.getLikeCount(post.getPost_id()) %></div>--%>
-
-
-
-                </div>
-
-                <form action="like-post" method="post" class="like-form">
-                    <input type="hidden" name="post_id" value="<%= post.getPost_id() %>">
-                    <input type="submit" value="Like">
-                </form>
-                <form action="comment-post" method="post" class="comment-form">
-                    <input type="hidden" name="post_id" value="<%= post.getPost_id() %>">
-                    <input type="text" name="comment_text" placeholder="Add a comment">
-                    <input type="submit" value="Comment">
-                </form>
-            </div>
-            <%
-                }
-            } else {
-            %>
-            <div>No posts found</div>
-            <%
-                }
-            %>
-        </div>
-    </div>
-</section>
-
-
-
 
 <!-- Footer-->
 <footer class="footer text-center">

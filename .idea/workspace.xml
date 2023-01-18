@@ -1,20 +1,75 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="Social_Lite:war exploded" />
+    </artifacts-to-build>
+  </component>
   <component name="AutoImportSettings">
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fd2ee732-8748-4979-9292-c5bb5ccbd737" name="Changes" comment="">
+    <list default="true" id="fd2ee732-8748-4979-9292-c5bb5ccbd737" name="Changes" comment="Facebook_clone First commit">
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/webContexts.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/webContexts.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mvnw.cmd" beforeDir="false" afterPath="$PROJECT_DIR$/mvnw.cmd" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/facebook_clone/controller/LikeServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/facebook_clone/controller/LikeServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/facebook_clone/controller/LoginServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/facebook_clone/controller/LoginServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/facebook_clone/controller/LogoutServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/facebook_clone/controller/LogoutServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/facebook_clone/controller/PostServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/facebook_clone/controller/PostServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/facebook_clone/controller/RegisterServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/facebook_clone/controller/RegisterServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/facebook_clone/controller/ViewPostServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/facebook_clone/controller/ViewPostServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/facebook_clone/dao/PostDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/facebook_clone/dao/PostDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/facebook_clone/dao/UserDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/facebook_clone/dao/UserDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/facebook_clone/models/Comment.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/facebook_clone/models/Comment.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/facebook_clone/models/Posts.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/facebook_clone/models/Posts.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/facebook_clone/models/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/facebook_clone/models/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/facebook_clone/services/Comment.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/facebook_clone/services/Comment.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/facebook_clone/services/Like.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/facebook_clone/services/Like.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/facebook_clone/util/DatabaseConnection.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/facebook_clone/util/DatabaseConnection.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/createPost.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/createPost.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/css/index-styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/css/index-styles.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/css/posts.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/css/posts.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/webapp/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/index.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/login.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/login.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/registration.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/registration.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/viewPost.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/viewPost.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/viewPost.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/viewPost.jsp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+        <option value="CSS File" />
+        <option value="Interface" />
+        <option value="Jsp File" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="jar:///Library/Java/JavaVirtualMachines/jdk-18.0.2.jdk/Contents/Home/lib/src.zip!/java.base/java/lang/ref/ReferenceQueue.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="jar:///Library/Java/JavaVirtualMachines/jdk-18.0.2.jdk/Contents/Home/lib/src.zip!/java.base/java/util/concurrent/ThreadPoolExecutor.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="jar://$MAVEN_REPOSITORY$/mysql/mysql-connector-java/8.0.30/mysql-connector-java-8.0.30-sources.jar!/com/mysql/cj/jdbc/AbandonedConnectionCleanupThread.java" root0="FORCE_HIGHLIGHTING" />
+  </component>
+  <component name="LogFilters">
+    <option name="FILTER_ERRORS" value="false" />
+    <option name="FILTER_WARNINGS" value="true" />
+    <option name="FILTER_INFO" value="true" />
+    <option name="FILTER_DEBUG" value="true" />
+    <option name="CUSTOM_FILTER" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
   </component>
   <component name="MavenImportPreferences">
     <option name="importingSettings">
@@ -24,19 +79,113 @@
     </option>
   </component>
   <component name="ProjectId" id="2KHcKmrDnUUHFw2AV0zdjMKOch8" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/dec/IdeaProjects/Social_Lite/src/main/webapp&quot;,
+    &quot;list.type.of.created.stylesheet&quot;: &quot;CSS&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  },
+  &quot;keyToStringList&quot;: {
+    &quot;DatabaseDriversLRU&quot;: [
+      &quot;mysql&quot;
+    ]
   }
-}]]></component>
+}</component>
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="facebook_clone.dao" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/webapp" />
+      <recent name="$PROJECT_DIR$/src/lib" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/webapp" />
+      <recent name="$PROJECT_DIR$/src/main/resources" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Tomcat Server.Tomcat 9.0.70">
+    <configuration name="viewPost.jsp" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:8080/Social_Lite_war_exploded/viewPost.jsp">
+      <method v="2" />
+    </configuration>
+    <configuration name="Tomcat 9.0.70" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 9.0.70" ALTERNATIVE_JRE_ENABLED="false">
+      <deployment>
+        <artifact name="Social_Lite:war exploded">
+          <settings>
+            <option name="CONTEXT_PATH" value="/Social_Lite_war_exploded" />
+          </settings>
+        </artifact>
+      </deployment>
+      <server-settings>
+        <option name="BASE_DIRECTORY_NAME" value="ec91495a-c842-4dca-b637-1e2027173442" />
+      </server-settings>
+      <predefined_log_file enabled="true" id="Tomcat" />
+      <predefined_log_file enabled="true" id="Tomcat Catalina" />
+      <predefined_log_file id="Tomcat Manager" />
+      <predefined_log_file id="Tomcat Host Manager" />
+      <predefined_log_file id="Tomcat Localhost Access" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="50570" />
+      </RunnerSettings>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <method v="2">
+        <option name="Make" enabled="true" />
+        <option name="BuildArtifacts" enabled="true">
+          <artifact name="Social_Lite:war exploded" />
+        </option>
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JavaScript Debug.viewPost.jsp" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -45,8 +194,30 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1673634894694</updated>
-      <workItem from="1673634897092" duration="5000" />
+      <workItem from="1673634897092" duration="105296000" />
+      <workItem from="1673985079495" duration="17080000" />
+      <workItem from="1674008091343" duration="3520000" />
+      <workItem from="1674025427568" duration="13042000" />
+      <workItem from="1674049633029" duration="905000" />
     </task>
     <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Facebook_clone First commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="Facebook_clone First commit" />
   </component>
 </project>
